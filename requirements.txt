@@ -1,0 +1,11 @@
+# dspy-analytics-governance-blueprint requirements
+
+# Core analytics engine
+dspy-ai>=2.4.0
+
+# HTTP (for optional direct brain query)
+requests>=2.31.0
+
+# Already in stdlib: json, pathlib, argparse, collections, re, time, datetime
+# harmony-engine-protocol is a sibling repo, not a pip package.
+# Set HARMONY_PATH env var to its location.
